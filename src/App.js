@@ -6,17 +6,19 @@ import UnorderList from "./components/functional components/list/unorder-list/un
 import ImageComponents from "./components/functional components/list/image1/image-components";
 import TableComponent from "./components/table/table-component";
 import Profile from "./components/functional components/jsx/jsx";
+import SravanTable from "./components/functional components/jsx/table-jsx";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1> Hello world</h1>
       {/* <ButtonComponents></ButtonComponents>
       <OrderList />
       <UnorderList />
-      <ImageComponents></ImageComponents>
-      <TableComponent /> */}
-      <Profile/>
+      <ImageComponents></ImageComponents> */}
+      {/* <TableComponent /> */}
+      <SravanTable/>
+      {/* <Profile/> */}
     </div>
   );
 }

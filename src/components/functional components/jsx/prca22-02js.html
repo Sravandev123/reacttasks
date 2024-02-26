@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+debugger
+a = [-4, -1, 0, 3, 10];
+c=[];
+for (let i = 0; i < a.length; i++) {
+c.push(a[i] * a[i]);
+}
+
+for(i=0;i<c.length;i++){
+    for(j=i+1;j<c.length;j++){
+        if(c[j]<c[i]){
+            x=[i]
+            c[i]=c[j]
+            c[j]=x
+        }
+    }
+}
+console.log(c)
+    </script>
+</body>
+</html>
