@@ -10,6 +10,7 @@ import SravanTable from "./components/functional components/jsx/table-jsx";
 
 function App() {
   return (
+    
     <div className="App">
       <h1> Hello world</h1>
       {/* <ButtonComponents></ButtonComponents>
@@ -21,6 +22,7 @@ function App() {
       {/* <Profile/> */}
     </div>
   );
+
 }
 
 export default App;
